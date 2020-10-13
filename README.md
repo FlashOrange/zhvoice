@@ -39,9 +39,7 @@ from phkit import text_to_sequence, pinyin
 ## 应用场景
 
 - 用于语音克隆模型，可直接用于githup的语音克隆项目[**zhrtvc**](https://github.com/KuangDD/zhrtvc)。
-
 - 用于语音合成模型，用标贝开源的中文标准女声音频**zhbznsyp**数据集，或者筛选音质较好，和目标声音相似的说话人语音及其文本。
-
 - 用于声码器模型，即由语音特征转为语音信号的模型。用语音数据，可结合[**aukit**](https://github.com/KuangDD/aukit)的音频转频谱。
 
 ```
